@@ -1,5 +1,5 @@
 number = input("введите число")
 
-summ = int(num * 3) + int(num * 2) + int(num)
+summ = int(number * 3) + int(number * 2) + int(number)
 
 print(summ)

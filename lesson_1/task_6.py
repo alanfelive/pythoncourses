@@ -3,7 +3,7 @@ b = int(input("Желаемый результат?"))
 days = 1
 result = a
 while result < b:
-        a = a + 0.1 * a
+        a = 1.1 * a
         days += 1
         result = result + a
 print(f"Спортсмен достигнет требуемых результатов на %.d день" % days)
